@@ -11,4 +11,8 @@ class BankAccount
   def deposit (deposit_value)
     self.balance += deposit_value
   end
+  
+  def display_balance
+    "Your balance is #{@balance}."
+  end
 end
